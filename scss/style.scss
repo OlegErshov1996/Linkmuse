@@ -1,0 +1,29 @@
+@import "header";
+@import "fonts";
+@import "main";
+@import "cart";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  background-color: #f3f4f6;
+  font-family: 'San Francisco Pro';
+}
+
+.container {
+  max-width: calc( 1440px - 304px );
+  margin: 0 auto;
+}
